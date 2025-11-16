@@ -6,7 +6,7 @@ import AddToCartButton from '../../pages/Cart/Cart';
 const ProductCard = ({ product, onViewDetails }) => {
   const { productId, name, price, image_url ,description,rating} = product;
   
-  const requestUrl = `http://localhost:3000/product-images/`;
+  const requestUrl = `https://onlineshop-api-b7h9cfe2excmgebs.uaenorth-01.azurewebsites.net/product-images/`;
   return (
     <div className="product-card">
       <img src={`${requestUrl}${image_url}`}  onClick={() => onViewDetails(productId)} alt={name} />
