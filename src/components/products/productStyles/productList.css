@@ -1,0 +1,14 @@
+.product-list .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product-list-container{
+    width: 100%;
+}
+
+.product-list{
+    max-width: 1080px;
+    margin: auto;
+}

@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/a8c120d9-c8e9-44ee-b1c5-3528c792a4f0/resourceGroups/onlineshop-api_group/providers/Microsoft.Web/sites/onlineshop-client",
+    "appService.deploySubpath": "build"
+}

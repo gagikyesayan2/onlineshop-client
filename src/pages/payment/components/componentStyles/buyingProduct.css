@@ -1,0 +1,110 @@
+/* buyingProduct.css */
+
+.productBuyingContainer {
+    width: 450px;
+    height: 350px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    font-family: 'Arial', sans-serif;
+  }
+
+  .productInfo {
+    display: flex;
+    flex-direction: row;
+    text-align: start;
+    margin: 10px;
+  }
+  
+  .finalSelectedProductImage {
+    width: 100%;
+    max-width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .finalSelectedProductDetails h3 {
+    margin: 10px 0;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+  }
+
+  
+  .finalSelectedProductDetails p {
+    margin: 5px 0;
+    color: #333333;
+    width: 200px;
+
+  }
+  
+  .finalSelectedProductPrice {
+    font-size: 2.5rem;
+    margin-left: 10px;
+ 
+    color: #000000;
+    margin-top: 30px;
+  }
+  .finalSelectedProductDetails{
+    margin-left: 25px;
+    margin-top: -15px;
+  }
+  .quantityControl {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 12px;
+    margin-top: 20px;
+  }
+  
+  .quantityButton {
+    background: none;
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    border:1px solid black;
+    border-radius: 9%;
+    cursor: pointer;
+    margin: 5px;
+  }
+  .quantity p{
+    padding: 5px 0px 0px 12px;
+  }
+  .quantity{
+    width: 38px;
+    height: 38px;
+    font-weight:300;
+
+  }
+ 
+  
+  
+  .finalSelectedProductDetails hr{
+    width: 95%;
+    margin-left: 3px;
+  }
+  
+  @media (max-width: 600px) {
+    .productBuyingContainer {
+      padding: 15px;
+    }
+  
+    .finalSelectedProductImage {
+      max-width: 100%;
+    }
+  
+    .quantityButton {
+      width: 40px;
+      height: 40px;
+      font-size: 1.2rem;
+    }
+  
+    .quantity {
+      font-size: 1.2rem;
+    }
+  }
+  

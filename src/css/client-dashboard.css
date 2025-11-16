@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    max-width: 1920px;
+    height: 70px;
+    background-color: black;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    padding-top: 20px;
+}
+
+.header .logo .inner-logo{
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.profile-link{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav ul li{
+    font-size: 17px;
+    display: inline-block;
+    margin-left: 20px;
+    cursor: pointer;
+
+}
+
+.signout button{
+    background: white;
+    border: none;
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+    border-radius: 4px;
+}
+
+/** profile dashboard */
+.col-profile-top{
+    color: black;
+    width: 350px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+}
+
+.col-profile{
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;   
+    color: black;
+    width: 200px;
+    height: 100px;
+    border-radius: 15px;
+    margin-top: 40px;
+}
+
+.profile-dashboard{
+    max-width: 1200px;
+    margin: auto;
+}
+body{
+    background-color: rgb(242, 242, 242);
+
+}
+.profile-dashboard .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

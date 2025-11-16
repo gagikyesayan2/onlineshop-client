@@ -1,0 +1,14 @@
+.col .text-details{
+    max-width: 350px;
+}
+.star, .rank{
+    display: inline-block;
+}
+.star{
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+}
+.rank{
+    margin-left: 5px;
+}

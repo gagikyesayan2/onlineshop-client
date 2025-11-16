@@ -1,0 +1,10 @@
+.add-to-cart-button button{
+    width: 100px;
+    height: 35px;
+    border-radius: 4px;
+    background: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    outline: none;    
+    cursor: pointer;
+}

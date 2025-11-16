@@ -1,0 +1,112 @@
+.dealDay{
+    width: 100%;
+    height: 400px;
+    margin: 100px auto;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.dealDay::before{
+    clip-path: polygon(0% 0%, 100% 0%, 100% 30%, 0% 100%);
+    background-color: rgba(0, 0, 0, 0.803);
+    content:"";
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    position:absolute;
+    z-index: -2;
+}
+
+.deal-card{
+    width: 300px;
+    height: 300px;
+    z-index: 12;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 90%);
+    cursor: pointer;
+
+}
+.rowDealDay .col:last-child {
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    margin-top: 20px;
+    border-bottom: 1px solid rgb(187, 187, 187);
+}
+
+.rowDealDay{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: black;
+    max-width: 1080px;
+    margin: auto;
+}
+
+
+
+
+.dealDay .rowDealDay .dealDayTextDetails{
+    color: white;
+    max-width:400px;
+    text-align: center;
+}
+.dealDay .rowDealDay .dealDayTextDetails h3{
+     font-size: 45px;
+}
+.dealDay .rowDealDay .dealDayTextDetails p{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.dealDayTimeLeft div{
+    width: 25px;
+    text-align: center;
+    padding-top: 5px;
+    height: 25px;
+    border-radius: 4px;
+    background-color: white;
+    margin-left: 5px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+
+.rowDealDay .col:first-child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 450px;
+}
+
+.dealDayOnlyBtn{
+    color: white;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(255, 162, 0);
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.anglePhotos{
+    width: 200px;
+    height: 100px;
+    display: flex;
+    margin-top: 5px;
+    gap: 15px;
+}
+.anglePhotos img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+@media (max-width:717px){
+    .dealDayWrapper{
+        height: 700px;
+    }
+}
