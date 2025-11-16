@@ -15,7 +15,7 @@ const DealOfTheDay = () =>{
 
       dispatch(fetchSpecificProductPhotosThunk(8))
   },[dispatch])
-    const dealDayImageUrl = "http://localhost:3000/product-images/";
+    const dealDayImageUrl = "https://onlineshop-api-b7h9cfe2excmgebs.uaenorth-01.azurewebsites.net/product-images/";
   
    
     const currentState = useSelector((state) =>state);
