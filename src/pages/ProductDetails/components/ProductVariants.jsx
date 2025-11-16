@@ -5,7 +5,7 @@ import { newProductSelected } from "../../../services/features/products/productS
 
 
 const ProductVariants = ({mainProductVariant,selectedProductVariants,productVariant}) =>{
-    const variantImageUrl = "http://localhost:3000/product-images";
+    const variantImageUrl = "https://onlineshop-api-b7h9cfe2excmgebs.uaenorth-01.azurewebsites.net/product-images";
 
     const dispatch = useDispatch();
     
