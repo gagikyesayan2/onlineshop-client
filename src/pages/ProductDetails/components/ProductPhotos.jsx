@@ -25,7 +25,7 @@ const ProductPhotos = ({productVariant, mainPhoto, photos, selectedVariant })=>{
         
       }, [mainPhoto]);
 
-const photoUrl = `http://localhost:3000/product-images`;
+const photoUrl = `https://onlineshop-api-b7h9cfe2excmgebs.uaenorth-01.azurewebsites.net/product-images`;
     return(
         <div className="col">
             <div className="main-photo">
